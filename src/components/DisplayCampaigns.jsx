@@ -13,6 +13,10 @@ const DisplayCampaigns = ({ title, isLoading, campaigns }) => {
   
   return (
     <div>
+      <h1 className="font-epilogue font-semibold text-[26px] text-white text-center">BlockChain Crowdfunding Platform Project</h1>
+      <h1 className="font-epilogue font-semibold text-[20px] text-white text-center">CrowdFunding Empowering Decision Making</h1>
+      <br />
+      <br />
       <h1 className="font-epilogue font-semibold text-[18px] text-white text-left">{title} ({campaigns.length})</h1>
 
       <div className="flex flex-wrap mt-[20px] gap-[26px]">
@@ -32,6 +36,10 @@ const DisplayCampaigns = ({ title, isLoading, campaigns }) => {
           handleClick={() => handleNavigate(campaign)}
         />)}
       </div>
+      <br />
+      <br />
+      <h1 className="font-epilogue font-semibold text-[20px] text-white text-center">A Project by ARYAN VERMA, JATIN MANGWANI, SAKSHAM MANKOTIA, VIVEK DANGI</h1>
+      <br /><br /><br />
     </div>
   )
 }
